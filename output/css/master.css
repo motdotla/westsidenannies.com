@@ -2,6 +2,8 @@ body {
 	font: normal normal normal 12px/1.5 "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
 	background: #2A1B05;
 	background: #1D1304;
+	background: #19110A;
+/*	background: #19110A url(/images/bg.gif) top left repeat-x;*/
 }
 
 /* Structure
@@ -17,12 +19,12 @@ body {
 
 /* Landing page
 --------------------------------------- */
-#landing-page { margin-top: 190px; text-align: center; display: hidden;}
+#landing-page { margin-top: 140px; text-align: center; display: hidden;}
 
 #landing-page h1 { display: none; }
 #landing-page #logo {	display: none; }
 #landing-page img {
-	margin-bottom: 15px;
+	margin-bottom: 130px;
 }
 #landing-page p.enter {
 	font-size: 15px;
