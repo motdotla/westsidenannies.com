@@ -18,7 +18,8 @@ body {
 --------------------------------------- */
 #landing-page { margin-top: 170px; text-align: center;}
 
-#landing-page h1 {
+#landing-page h1 a {
+	display: block;
 	margin-left: -3000px;
 	width: 3572px;
 	text-align: left;
@@ -26,18 +27,19 @@ body {
 	background-position: top right;
 	background-repeat: no-repeat;
 	height: 90px;
+	text-decoration: none;
 }
 #landing-page p.enter {
 	font-size: 15px;
 	text-transform: uppercase; letter-spacing: 2px;
 	font-family: Georgia, "Times New Roman", serif;
 }
-#landing-page a {
+#landing-page p.enter a {
 	color: #7dcbff;
 	text-decoration: none;
 	padding: 5px 2px 0 2px;
 	border-bottom: 1px solid #7dcbff;
 }
-#landing-page a:hover {
+#landing-page p.enter a:hover {
 	color: #fff; border-color: #fff;
 }
