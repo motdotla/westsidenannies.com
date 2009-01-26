@@ -16,6 +16,11 @@ $(document).ready(function(){
 
 <h1><a href="/home.html">Westside Nannies</a></h1>
 
-<div id="logo"><a href="/home.html"><img src="/images/logo-large.gif" /></a></div>
+<div id="logo"><a href="/home.html">
+	<img src="/images/logo-large.gif" /></a>
 	
-<p class="enter"><a href="/home.html">Enter</a></p>
+	<p class="enter"><a href="/home.html">Enter</a></p>
+	
+</div>
+	
+
