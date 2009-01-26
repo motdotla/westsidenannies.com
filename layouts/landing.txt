@@ -16,20 +16,11 @@ filter:    erb
 </head>
 <body>
 
-<div id="page" class="container_12">
-	<div class="grid_2">&nbsp;</div>
-	<div id="header" class="grid_8">
-		<h1>Westside Nannies</h1>
+<div id="landing-page" class="container_12">
+	<div class="grid_12">
+		<%= @content %>
 	</div>
-	<div class="grid_2">&nbsp;</div>
-	<div class="clear"></div>
-	
-	
-	<div class="grid_2">&nbsp;</div>
-  <div id="content" class="grid_8">
-     <%= @content %>
-  </div>
-	<div class="grid_2">&nbsp;</div>
+</div>
 
 </div><!-- /page -->
 </body>
