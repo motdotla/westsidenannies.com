@@ -22,7 +22,7 @@ body {
 #landing-page h1 a {
 	margin-left: -5000px;
 }
-#landing-page #logo {	display: none; height: 145px;}
+#landing-page #logo {	display: none; }
 #landing-page p.enter {
 	font-size: 15px;
 	text-transform: uppercase; letter-spacing: 2px;
