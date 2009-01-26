@@ -7,6 +7,15 @@ filter:
   - textile
 ---
 
+		
+<script type="text/javascript">
+$(document).ready(function(){
+	$("div#logo").fadeIn(2000);
+});
+</script>
+
 <h1><a href="/home.html">Westside Nannies</a></h1>
 
+<div id="logo"><a href="/home.html"><img src="/images/logo-large.gif" /></a></div>
+	
 <p class="enter"><a href="/home.html">Enter</a></p>

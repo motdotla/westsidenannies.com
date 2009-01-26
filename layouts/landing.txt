@@ -16,13 +16,6 @@ filter:    erb
 		
 		<!-- Javascripts -->
 		<script type="text/javascript" src="/javascripts/jquery-1.3.1.min.js"></script>
-		
-		
-		<!-- <script type="text/javascript">
-	  $(document).ready(function(){
-			$("div:hidden:first").fadeIn(2000);
-	  });
-	  </script> -->
 </head>
 <body>
 

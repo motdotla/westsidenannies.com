@@ -17,19 +17,12 @@ body {
 
 /* Landing page
 --------------------------------------- */
-#landing-page { margin-top: 170px; text-align: center; }
+#landing-page { margin-top: 170px; text-align: center; display: hidden;}
 
 #landing-page h1 a {
-	display: block;
-	margin-left: -3000px;
-	width: 3672px;
-	text-align: left;
-	background-image: url(/images/logo-large.gif);
-	background-position: top right;
-	background-repeat: no-repeat;
-	height: 142px;
-	text-decoration: none;
+	margin-left: -5000px;
 }
+#landing-page #logo {	display: none; }
 #landing-page p.enter {
 	font-size: 15px;
 	text-transform: uppercase; letter-spacing: 2px;
