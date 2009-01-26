@@ -10,9 +10,7 @@ filter:
 
 <div id="logo"><a href="/home.html">
 	<img src="/images/logo-large.gif" /></a>
-	
-	<p class="enter"><a href="/home.html">Enter</a></p>
-	
 </div>
+<p class="enter"><a href="/home.html">Enter</a></p>
 	
 
