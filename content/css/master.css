@@ -17,7 +17,7 @@ body {
 
 /* Landing page
 --------------------------------------- */
-#landing-page { margin-top: 170px; text-align: center; display: none;}
+#landing-page { margin-top: 170px; text-align: center; }
 
 #landing-page h1 a {
 	display: block;
