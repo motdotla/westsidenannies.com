@@ -1,6 +1,7 @@
 body {
 	font: normal normal normal 12px/1.5 "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
 	background: #2A1B05;
+	background: #1D1304;
 }
 
 /* Structure
@@ -21,12 +22,12 @@ body {
 #landing-page h1 a {
 	display: block;
 	margin-left: -3000px;
-	width: 3572px;
+	width: 3672px;
 	text-align: left;
-	background-image: url(/images/logo.gif);
+	background-image: url(/images/logo-large.gif);
 	background-position: top right;
 	background-repeat: no-repeat;
-	height: 90px;
+	height: 142px;
 	text-decoration: none;
 }
 #landing-page p.enter {
@@ -38,7 +39,6 @@ body {
 	color: #7dcbff;
 	text-decoration: none;
 	padding: 5px 2px 0 2px;
-	border-bottom: 1px solid #7dcbff;
 }
 #landing-page p.enter a:hover {
 	color: #fff; border-color: #fff;
