@@ -19,17 +19,32 @@ filter:    erb
 </head>
 <body>
 
-<div id="page" class="container_12">
+<div id="page" class="container_16">
 	<div class="grid_2">&nbsp;</div>
-	<div id="header" class="grid_8">
-		<h1>Westside Nannies</h1>
+	<div id="header" class="grid_12">
+		<img src="/images/logo.gif" />
+	</div>
+	<div class="grid_2">&nbsp;</div>
+	<div class="clear"></div>
+	
+	<div class="grid_2">&nbsp;</div>
+	<div id="nav" class="grid_12">
+		<ul>
+			<li>Home</li>
+			<li>Clients</li>
+			<li>Candidates</li>
+			<li>About Us</li>
+			<li>Press</li>
+			<li>Blog</li>
+			<li>Contact</li>
+		</ul>
 	</div>
 	<div class="grid_2">&nbsp;</div>
 	<div class="clear"></div>
 	
 	
 	<div class="grid_2">&nbsp;</div>
-  <div id="content" class="grid_8">
+  <div id="content" class="grid_12">
      <%= @content %>
   </div>
 	<div class="grid_2">&nbsp;</div>
