@@ -3,11 +3,25 @@ body {
 	background: #2A1B05;
 	background: #1D1304;
 	background: #19110A;
-	background: #19110A url(/images/fondnoir.png) top left repeat-x;
 }
 
 /* Structure
 --------------------------------------- */
+#page {
+	background: #fff;
+	height: 500px; margin-top: 40px; padding: 10px 0 10px 0;
+	overflow: hidden;
+}
+#content {
+	background: #4C413F;
+}
+#sidebar {
+	background: #51C5DC;
+}
+	#logo img {
+		background: #fff; padding: 10px;
+		position: relative; top: 50px; left: -115px; z-index: 100;
+	}
 #header {
 	margin-top: 20px;
 	text-align: center;
@@ -15,9 +29,7 @@ body {
 #nav {
 	background: #5b4f46;
 }
-#content {
-	background: #fff;
-}
+
 
 /* Nav
 ---------------------------------------------- */
@@ -53,7 +65,7 @@ body {
 #landing-page { margin-top: 180px; text-align: center; display: hidden;}
 
 #landing-page h1 { display: none; }
-#landing-page #logo {	display: none; }
+#landing-page #landing-logo {	display: none; }
 #landing-page img {
 	margin-bottom: 130px;
 }

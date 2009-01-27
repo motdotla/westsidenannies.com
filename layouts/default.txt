@@ -20,15 +20,15 @@ filter:    erb
 <body>
 
 <div id="page" class="container_16">
-	<div class="grid_2">&nbsp;</div>
-	<div id="header" class="grid_12">
-		<img src="/images/logo.gif" />
+	<div id="content" class="grid_10">
+		<%= @content %>
 	</div>
-	<div class="grid_2">&nbsp;</div>
-	<div class="clear"></div>
 	
-	<div class="grid_2">&nbsp;</div>
-	<div id="nav" class="grid_12">
+	<div id="sidebar" class="grid_6">
+		<div id="logo">
+			<a href="/home.html"><img src="/images/logo.gif" /></a>
+		</div>
+		
 		<ul>
 			<li>Home</li>
 			<li>Clients</li>
@@ -39,16 +39,6 @@ filter:    erb
 			<li>Contact</li>
 		</ul>
 	</div>
-	<div class="grid_2">&nbsp;</div>
-	<div class="clear"></div>
-	
-	
-	<div class="grid_2">&nbsp;</div>
-  <div id="content" class="grid_12">
-     <%= @content %>
-  </div>
-	<div class="grid_2">&nbsp;</div>
-
 </div><!-- /page -->
 </body>
 </html>
