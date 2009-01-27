@@ -16,6 +16,7 @@ filter:    erb
 		
 		<!-- Javascripts -->
 		<script type="text/javascript" src="/javascripts/jquery-1.3.1.min.js"></script>
+		<script type="text/javascript" src="/javascripts/jquery.cycle.all.min.js"></script>
 </head>
 <body>
 
@@ -29,15 +30,18 @@ filter:    erb
 			<a href="/home.html"><img src="/images/logo.gif" /></a>
 		</div>
 		
-		<ul>
-			<li>Home</li>
-			<li>Clients</li>
-			<li>Candidates</li>
-			<li>About Us</li>
-			<li>Press</li>
-			<li>Blog</li>
-			<li>Contact</li>
-		</ul>
+		<div id="main-nav">
+			<ul>
+				<li><a href="/home.html">Home</a></li>
+				<li><a href="/clients.html">Clients</a></li>
+				<li><a href="/candidates.html">Candidates</a></li>
+				<li><a href="/about.html">About Us</a></li>
+				<li><a href="/press.html">Press</a></li>
+				<li><a href="/blog.html">Blog</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+			</ul>
+		</div>
+		
 	</div>
 </div><!-- /page -->
 </body>

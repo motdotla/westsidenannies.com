@@ -8,50 +8,46 @@ body {
 /* Structure
 --------------------------------------- */
 #page {
-	background: #fff;
-	height: 500px; margin-top: 40px; padding: 10px 0 10px 0;
-	overflow: hidden;
+	height: 500px; 
+	background: #fff; overflow: hidden;
+	margin-top: 40px; padding: 10px 0 10px 0;
+	
 }
 #content {
 	background: #4C413F;
+	
 }
 #sidebar {
+	height: 500px;
 	background: #51C5DC;
 }
 	#logo img {
 		background: #fff; padding: 10px;
 		position: relative; top: 50px; left: -115px; z-index: 100;
 	}
-#header {
-	margin-top: 20px;
-	text-align: center;
-}
-#nav {
-	background: #5b4f46;
-}
 
 
-/* Nav
+/* Main Nav
 ---------------------------------------------- */
-#nav {
-/*	background: #8196AB;*/
+#main-nav {
+	position: relative;
+	top: -150px; left: 80px;
+	font-family: Georgia 'Times New Roman', serif;
+	text-transform: uppercase;
 }
-#nav ul {
-	text-align: left;	float: left;
-	text-transform: uppercase; font-size: 11px;
+#main-nav ul {
+	text-transform: uppercase; font-size: 12px; padding: 0; margin: 0;
 }
-#nav ul li {
-	display: inline;
-	list-style: none;
-	background: none;
-	float: left; 
-	padding: 0; margin: 0 14px 0 0;
+#main-nav ul li {
+	list-style: none;	background: none; 
 }
-#nav ul li a {
-	color: #e5e9ed; text-decoration: none; color: #666;
+#main-nav ul li a {
+	display: block; padding: 2px 0 2px 0;
+	text-decoration: none; color: #19110A; 
+	width: 150px; 
 }
-#nav ul li a:hover {
-	color: #fff; color: #000;
+#main-nav ul li a:hover {
+	color: #fcfcfc; 
 }
 
 /* Misc
