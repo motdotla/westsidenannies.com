@@ -4,15 +4,74 @@ created_at: 2009-01-26 14:31:58.314735 -08:00
 filter:
   - erb
 ---
+
+<!-- Initialize each slider on the page. Each slider must have a unique id -->
+
+<!-- 
+	The CSS. You can of course have this in an external .css file if you like.
+	Please note that not all these styles may be necessary for your use of Coda-Slider, so feel free to take out what you don't need.
+	-->
+	<style type="text/css">
+		/* These 2 lines specify style applied while slider is loading */
+		.csw { width: 100%; height: 460px; background: #fff; overflow: scroll }
+		.csw .loading { margin: 200px 0 300px 0; text-align: center }
+		.stripViewer { /* This is the viewing window */
+			position: relative;
+			overflow: hidden;
+			margin: auto;
+			width: 580px; /* Also specified in  .stripViewer .panelContainer .panel  below */
+			height: 500px;
+			clear: both;
+		}
+		.stripViewer .panelContainer { /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
+			position: relative;
+			left: 0; top: 0;
+			width: 100%;
+			list-style-type: none;
+			/* -moz-user-select: none; // This breaks CSS validation but stops accidental (and intentional - beware) panel highlighting in Firefox. Some people might find this useful, crazy fools. */
+		}
+		.stripViewer .panelContainer .panel { /* Each panel is arranged end-to-end */
+			float:left;
+			height: 100%;
+			position: relative;
+			width: 580px; /* Also specified in  .stripViewer  above */
+		}	
+		.stripNav, .stripNavL, .stripNavR {
+			display: none;
+		}
+		
+	</style>
+
+
 <script type="text/javascript">
-	$(function() {
-		$('#cycle_images').cycle({
-				fx: 'fade'
-			});
+	jQuery(window).bind("load", function() {
+		jQuery("div#slider1").codaSlider()
 	});
-</script>	
-<div id="cycle_images">
-	<img src="/images/header1.jpg" width="580" />
-	<img src="/images/header2.jpg" width="580" />
-	<img src="/images/header3.jpg" width="580" />
-</div>
+</script>
+
+
+	<div id="slider1" class="csw">
+		<div class="panelContainer">
+		
+			<%= render :partial => 'home' %>
+
+			<%= render :partial => 'clients' %>
+			
+			<%= render :partial => 'candidates' %>
+			
+			<%= render :partial => 'about' %>
+			
+			<%= render :partial => 'contact' %>
+			
+			<div class="panel" title="Panel 5">
+				<div class="wrapper">
+					<h3>Panel 5</h3>
+
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus porta tortor sed metus. Nam pretium. Sed tempor. Integer ullamcorper, odio quis porttitor sagittis, nisl erat tincidunt massa, eu eleifend eros nibh sollicitudin est. Nulla dignissim. Mauris sollicitudin, arcu id sagittis placerat, tellus mauris egestas felis, eget interdum mi nibh vel lorem. Aliquam egestas hendrerit massa. Suspendisse sed nunc et lacus feugiat hendrerit. Nam cursus euismod augue. Aenean vehicula nisl eu quam luctus adipiscing. Nunc consequat justo pretium orci. Mauris hendrerit fermentum massa. Aenean consectetuer est ut arcu. Aliquam nisl massa, blandit at, accumsan sed, porta vel, metus. Duis fringilla quam ut eros.</p>
+					<p>Sed eu ligula eget eros vulputate tincidunt. Etiam sapien urna, auctor a, viverra sit amet, convallis a, enim. Nullam ut nulla. Nam laoreet massa aliquet tortor. Mauris in quam ut dui bibendum malesuada. Nulla vel erat. Pellentesque metus risus, aliquet eget, eleifend in, ultrices vitae, nisi. Vivamus non nulla. Praesent ac lacus. Donec augue turpis, convallis sed, lacinia et, vestibulum nec, lacus. Suspendisse feugiat semper nunc. Donec nisl elit, varius sed, sodales volutpat, commodo in, elit. Proin ornare hendrerit lectus. Sed non dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis suscipit. Mauris egestas tincidunt lectus. Phasellus sed quam et velit laoreet pretium. Nunc metus.</p>
+				</div>
+			</div>
+
+			
+		</div><!-- .panelContainer -->
+	</div><!-- #slider1 -->

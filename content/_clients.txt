@@ -1,0 +1,10 @@
+---
+filter: erb
+---
+
+<div class="panel" title="Clients">
+	<div class="wrapper">
+		<h2>Clients</h2>
+		<p>Content here</p>
+	</div>
+</div>

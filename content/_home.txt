@@ -1,0 +1,18 @@
+---
+filter: erb
+---
+
+<div class="panel" title="Home">
+	<script type="text/javascript">
+		$(function() {
+			$('#cycle_images').cycle({
+					fx: 'fade'
+				});
+		});
+	</script>	
+	<div id="cycle_images">
+		<img src="/images/header1.jpg" width="580" />
+		<img src="/images/header2.jpg" width="580" />
+		<img src="/images/header3.jpg" width="580" />
+	</div>
+</div>

@@ -1,0 +1,11 @@
+---
+filter: erb
+---
+
+<div class="panel" title="Candidates">
+	<div class="wrapper">
+		<h2>Candidates</h2>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus porta tortor sed metus. Nam pretium. Sed tempor. Integer ullamcorper, odio quis porttitor sagittis, nisl erat tincidunt massa, eu eleifend eros nibh sollicitudin est. Nulla dignissim. Mauris sollicitudin, arcu id sagittis placerat, tellus mauris egestas felis, eget interdum mi nibh vel lorem. Aliquam egestas hendrerit massa. Suspendisse sed nunc et lacus feugiat hendrerit. Nam cursus euismod augue. Aenean vehicula nisl eu quam luctus adipiscing. Nunc consequat justo pretium orci. Mauris hendrerit fermentum massa. Aenean consectetuer est ut arcu. Aliquam nisl massa, blandit at, accumsan sed, porta vel, metus. Duis fringilla quam ut eros.</p>
+		<p>Sed eu ligula eget eros vulputate tincidunt. Etiam sapien urna, auctor a, viverra sit amet, convallis a, enim. Nullam ut nulla. Nam laoreet massa aliquet tortor. Mauris in quam ut dui bibendum malesuada. Nulla vel erat. Pellentesque metus risus, aliquet eget, eleifend in, ultrices vitae, nisi. Vivamus non nulla. Praesent ac lacus. Donec augue turpis, convallis sed, lacinia et, vestibulum nec, lacus. Suspendisse feugiat semper nunc. Donec nisl elit, varius sed, sodales volutpat, commodo in, elit. Proin ornare hendrerit lectus. Sed non dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis suscipit. Mauris egestas tincidunt lectus. Phasellus sed quam et velit laoreet pretium. Nunc metus.</p>
+	</div>
+</div>

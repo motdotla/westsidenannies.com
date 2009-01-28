@@ -10,8 +10,7 @@ body {
 #page {
 	height: 500px; 
 	background: #fff; overflow: hidden;
-	margin-top: 40px; padding: 10px 0 10px 0;
-	
+	margin-top: 50px; padding: 10px 0 10px 0;
 }
 #content {
 	background: #4C413F;

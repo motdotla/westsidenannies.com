@@ -8,7 +8,7 @@ filter:    erb
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
 	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	  <title><%= @page.title %> &laquo; Westside Nannies</title>
+	  <title>Westside Nannies</title>
 	  <meta name="author" content="<%= @page.author %>" />
 
 		<!--- CSS Framework -->
@@ -16,7 +16,11 @@ filter:    erb
 		
 		<!-- Javascripts -->
 		<script type="text/javascript" src="/javascripts/jquery-1.3.1.min.js"></script>
+		<script type="text/javascript" src="/javascripts/coda-slider.1.1.1.pack.js"></script>
+		<script type="text/javascript" src="/javascripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/javascripts/jquery.easing.compatibility.1.3.js"></script>
 		<script type="text/javascript" src="/javascripts/jquery.cycle.all.min.js"></script>
+		
 </head>
 <body>
 
@@ -32,13 +36,13 @@ filter:    erb
 		
 		<div id="main-nav">
 			<ul>
-				<li><a href="/home.html">Home</a></li>
-				<li><a href="/clients.html">Clients</a></li>
-				<li><a href="/candidates.html">Candidates</a></li>
-				<li><a href="/about.html">About Us</a></li>
-				<li><a href="/press.html">Press</a></li>
+				<li><a href="#1" class="cross-link">Home</a></li>
+				<li><a href="#2" class="cross-link">Clients</a></li>
+				<li><a href="#3" class="cross-link">Candidates</a></li>
+				<li><a href="#4" class="cross-link">About Us</a></li>
+				<li><a href="/press.html" class="cross-link">Press</a></li>
 				<li><a href="/blog.html">Blog</a></li>
-				<li><a href="/contact.html">Contact</a></li>
+				<li><a href="#5" class="cross-link">Contact</a></li>
 			</ul>
 		</div>
 		
