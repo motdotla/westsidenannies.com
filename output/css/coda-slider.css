@@ -1,0 +1,27 @@
+/* These 2 lines specify style applied while slider is loading */
+.csw { width: 100%; height: 460px; background: #fff; overflow: scroll }
+.csw .loading { margin: 200px 0 300px 0; text-align: center }
+.stripViewer { /* This is the viewing window */
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+	width: 580px; /* Also specified in  .stripViewer .panelContainer .panel  below */
+	height: 500px;
+	clear: both;
+}
+.stripViewer .panelContainer { /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
+	position: relative;
+	left: 0; top: 0;
+	width: 100%;
+	list-style-type: none;
+	/* -moz-user-select: none; // This breaks CSS validation but stops accidental (and intentional - beware) panel highlighting in Firefox. Some people might find this useful, crazy fools. */
+}
+.stripViewer .panelContainer .panel { /* Each panel is arranged end-to-end */
+	float:left;
+	height: 100%;
+	position: relative;
+	width: 580px; /* Also specified in  .stripViewer  above */
+}	
+.stripNav, .stripNavL, .stripNavR {
+	display: none;
+}
